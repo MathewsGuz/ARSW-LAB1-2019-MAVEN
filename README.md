@@ -2,7 +2,7 @@
 
 Create a new maven project using the command mvn archetype:generate -B -DgroupId=edu.eci -DartifactId=file-spy, take screenshots.
 
-![](lab1arsw.PNG)
+![](Img/lab1arsw.PNG)
 
 What do means the -B option in the command?
 
@@ -52,20 +52,20 @@ Using the terminal execute the command mvn compile. Take the output screenshot. 
 
 - compila el código fuente del proyecto
 
- ![](mvncompile.PNG)
+ ![](Img/mvncompile.PNG)
 
 Using the terminal execute the command mvn package. Take the output screenshot. What is this command using for?
 
 - toma el código compilado y lo guarda en su formato, como un JAR.
 
-![](mvnpackage.PNG)
+![](Img/mvnpackage.PNG)
 
 Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
 
  - instala el paquete en el repositorio local, para usarlo como una dependencia en otros proyectos a nivel local.
  
- ![](mvninstall.PNG)
+ ![](Img/mvninstall.PNG)
  
 Generate a new maven project in other folder using the maven command line tools, this project should has as groupId "edu.eci" and as artifactId "another-maven-project". Take the output screenshot.
 
-![](another-mvn-pro2.PNG)
+![](Img/another-mvn-pro2.PNG)
